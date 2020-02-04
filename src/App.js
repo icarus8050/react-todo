@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import MyName from "./components/MyName";
-import Counter from "./components/Counter";
+import TodoListTemplate from "./components/TodoListTemplate";
 
 class App extends Component {
   render() {
     return (
-        <div>
-            <MyName name="Chul"/>
-            <Counter/>
-        </div>
+        <TodoListTemplate>
+            템플릿 완성
+        </TodoListTemplate>
     );
   }
 }
